@@ -16,8 +16,8 @@ public static void main(String[] args) {
 	email.sendKeys("jansi");	
 	WebElement pass = driver.findElement(By.id("pass"));
     pass.sendKeys("9834");
-	WebElement btn = driver.findElement(By.name("login"));
-	btn.click();
+	 driver.findElement(By.name("login").click);
+	
 	
 	
 	
