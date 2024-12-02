@@ -18,9 +18,9 @@ public static void main(String[] args) {
     pass.sendKeys("9834");
 	 WebElement btn= driver.findElement(By.name("login"));
 	 btn.click();
-	 
+	 //selenium project
+	 //automation
 	 //selenium
-	 
 	
 	
 	
