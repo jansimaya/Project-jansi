@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.facebook.com/");
 	WebElement email = driver.findElement(By.id("email"));
-	email.sendKeys("jansi");	
+	email.sendKeys("vicky");	
 	WebElement pass = driver.findElement(By.id("pass"));
     pass.sendKeys("9834");
 	WebElement btn = driver.findElement(By.name("login"));
